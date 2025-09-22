@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date:
+## Date: 20.09.2025
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -24,10 +24,266 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
+<html>
+    <head>
+        <title>TIMESLOT</title>
+    </head>
+    <body bgcolor="bfbfbf">
+        <img src="logo.png" height="120" width="1000" align="center">
+        <h1 align="center">TIMETABLE SUJAL-25013553 (IT)</h1>
+        <table align="center" border="6" cellspacing="15" cellpadding="15">
+            <tr>
+                <th bgcolor="grey">DATE&TIME</th>
+                <th bgcolor="grey">MON</th>
+                <th bgcolor="grey">TUE</th>
+                <th bgcolor="grey">WED</th>
+                <th bgcolor="grey">THU</th>
+                <th bgcolor="grey">FRI</th>
+                <th bgcolor="grey">SAT</th>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">8-10</th>
+                <td bgcolor="beige">FREE</td>
+                <td bgcolor="lavender">CRYPTO</td>
+                <td align="center"bgcolor="darkkhaki">WEB</td>
+                <td bgcolor="beige">FREE</td>
+                <td bgcolor="tan" align="center">C</td>
+                <td align="center" bgcolor="darkkhaki">WEB</td>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">10-12</th>
+                <td bgcolor="beige">FREE</td>
+                <td bgcolor="beige">FREE</td>
+                <td align="center" bgcolor="darkkhaki">WEB</td>
+                <td bgcolor="tan" align="center">C</td>
+                <td bgcolor="lavender">CRYPTO</td>
+                <td bgcolor="lavender">CRYPTO</td>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">12-1</th>
+                <th bgcolor="grey" colspan="6"align="center">LUNCH</th>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">1-3</th>
+                <td bgcolor="tan" align="center">C</td>
+                <td bgcolor="beige">FREE</td>
+                <td bgcolor="lightblue" align="center">MENTOR MEET</td>
+                <td bgcolor="beige">FREE</td>
+                <td align="center" bgcolor="darkkhaki">WEB</td>
+                <td align="center" bgcolor="darkkhaki">WEB</td>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">3-5</th>
+                <td bgcolor="846D74" align="center">XXX</td>
+                <td bgcolor="lavender">CRYPTO</td>
+                <td bgcolor="tan" align="center">C</td>
+                <td bgcolor="tan" align="center">C</td>
+                <td bgcolor="846D74" align="center">XXX</td>
+                <td bgcolor="846D74" align="center">XXX</td>
+            </tr>
+        </table>
+        <table align="center" border="6" cellspacing="10" cellpadding="10" width="828">
+            <h1></h1>
+            <tr>
+                <th bgcolor="grey" align="center">S.NO</th>
+                <th bgcolor="grey" align="center">SUBJECT CODE</th>
+                <th bgcolor="grey" align="center">SUBJECT NAME</th>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">1</th>
+                <td bgcolor="darkkhaki" align="center">19AI414</td>
+                <td bgcolor="darkkhaki" align="center">FUNDAMENTALS OF WEB APP(WEB)</td>         
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">2</th>
+                <td bgcolor="tan" align="center">19AI304</td>
+                <td bgcolor="tan" align="center">FUNDAMENTALS OF C PROGRAMMING(C)</td>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">3</th>
+                <td bgcolor="lavender" align="center">19CS547</td>
+                <td bgcolor="lavender" align="center">FUNDAMENTALS OF CRYPTOCURRENCY(CRYPTO)</td>
+            </tr>
+        </table>
+    </body>
+</html>
 
+
+```
 
 ## OUTPUT
+<html>
+    <head>
+        <title>TIMESLOT</title>
+    </head>
+    <body bgcolor="bfbfbf">
+        <img src="logo.png" height="120" width="1000" align="center">
+        <h1 align="center">TIMETABLE SUJAL-25013553 (IT)</h1>
+        <table align="center" border="6" cellspacing="15" cellpadding="15">
+            <tr>
+                <th bgcolor="grey">DATE&TIME</th>
+                <th bgcolor="grey">MON</th>
+                <th bgcolor="grey">TUE</th>
+                <th bgcolor="grey">WED</th>
+                <th bgcolor="grey">THU</th>
+                <th bgcolor="grey">FRI</th>
+                <th bgcolor="grey">SAT</th>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">8-10</th>
+                <td bgcolor="beige">FREE</td>
+                <td bgcolor="lavender">CRYPTO</td>
+                <td align="center"bgcolor="darkkhaki">WEB</td>
+                <td bgcolor="beige">FREE</td>
+                <td bgcolor="tan" align="center">C</td>
+                <td align="center" bgcolor="darkkhaki">WEB</td>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">10-12</th>
+                <td bgcolor="beige">FREE</td>
+                <td bgcolor="beige">FREE</td>
+                <td align="center" bgcolor="darkkhaki">WEB</td>
+                <td bgcolor="tan" align="center">C</td>
+                <td bgcolor="lavender">CRYPTO</td>
+                <td bgcolor="lavender">CRYPTO</td>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">12-1</th>
+                <th bgcolor="grey" colspan="6"align="center">LUNCH</th>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">1-3</th>
+                <td bgcolor="tan" align="center">C</td>
+                <td bgcolor="beige">FREE</td>
+                <td bgcolor="lightblue" align="center">MENTOR MEET</td>
+                <td bgcolor="beige">FREE</td>
+                <td align="center" bgcolor="darkkhaki">WEB</td>
+                <td align="center" bgcolor="darkkhaki">WEB</td>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">3-5</th>
+                <td bgcolor="846D74" align="center">XXX</td>
+                <td bgcolor="lavender">CRYPTO</td>
+                <td bgcolor="tan" align="center">C</td>
+                <td bgcolor="tan" align="center">C</td>
+                <td bgcolor="846D74" align="center">XXX</td>
+                <td bgcolor="846D74" align="center">XXX</td>
+            </tr>
+        </table>
+        <table align="center" border="6" cellspacing="10" cellpadding="10" width="828">
+            <h1></h1>
+            <tr>
+                <th bgcolor="grey" align="center">S.NO</th>
+                <th bgcolor="grey" align="center">SUBJECT CODE</th>
+                <th bgcolor="grey" align="center">SUBJECT NAME</th>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">1</th>
+                <td bgcolor="darkkhaki" align="center">19AI414</td>
+                <td bgcolor="darkkhaki" align="center">FUNDAMENTALS OF WEB APP(WEB)</td>         
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">2</th>
+                <td bgcolor="tan" align="center">19AI304</td>
+                <td bgcolor="tan" align="center">FUNDAMENTALS OF C PROGRAMMING(C)</td>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">3</th>
+                <td bgcolor="lavender" align="center">19CS547</td>
+                <td bgcolor="lavender" align="center">FUNDAMENTALS OF CRYPTOCURRENCY(CRYPTO)</td>
+            </tr>
+        </table>
+    </body>
+</html>
 
+## OUTPUT
+<html>
+    <head>
+        <title>TIMESLOT</title>
+    </head>
+    <body bgcolor="bfbfbf">
+        <img src="logo.png" height="120" width="1000" align="center">
+        <h1 align="center">TIMETABLE SUJAL-25013553 (IT)</h1>
+        <table align="center" border="6" cellspacing="15" cellpadding="15">
+            <tr>
+                <th bgcolor="grey">DATE&TIME</th>
+                <th bgcolor="grey">MON</th>
+                <th bgcolor="grey">TUE</th>
+                <th bgcolor="grey">WED</th>
+                <th bgcolor="grey">THU</th>
+                <th bgcolor="grey">FRI</th>
+                <th bgcolor="grey">SAT</th>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">8-10</th>
+                <td bgcolor="beige">FREE</td>
+                <td bgcolor="lavender">CRYPTO</td>
+                <td align="center"bgcolor="darkkhaki">WEB</td>
+                <td bgcolor="beige">FREE</td>
+                <td bgcolor="tan" align="center">C</td>
+                <td align="center" bgcolor="darkkhaki">WEB</td>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">10-12</th>
+                <td bgcolor="beige">FREE</td>
+                <td bgcolor="beige">FREE</td>
+                <td align="center" bgcolor="darkkhaki">WEB</td>
+                <td bgcolor="tan" align="center">C</td>
+                <td bgcolor="lavender">CRYPTO</td>
+                <td bgcolor="lavender">CRYPTO</td>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">12-1</th>
+                <th bgcolor="grey" colspan="6"align="center">LUNCH</th>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">1-3</th>
+                <td bgcolor="tan" align="center">C</td>
+                <td bgcolor="beige">FREE</td>
+                <td bgcolor="lightblue" align="center">MENTOR MEET</td>
+                <td bgcolor="beige">FREE</td>
+                <td align="center" bgcolor="darkkhaki">WEB</td>
+                <td align="center" bgcolor="darkkhaki">WEB</td>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">3-5</th>
+                <td bgcolor="846D74" align="center">XXX</td>
+                <td bgcolor="lavender">CRYPTO</td>
+                <td bgcolor="tan" align="center">C</td>
+                <td bgcolor="tan" align="center">C</td>
+                <td bgcolor="846D74" align="center">XXX</td>
+                <td bgcolor="846D74" align="center">XXX</td>
+            </tr>
+        </table>
+        <table align="center" border="6" cellspacing="10" cellpadding="10" width="828">
+            <h1></h1>
+            <tr>
+                <th bgcolor="grey" align="center">S.NO</th>
+                <th bgcolor="grey" align="center">SUBJECT CODE</th>
+                <th bgcolor="grey" align="center">SUBJECT NAME</th>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">1</th>
+                <td bgcolor="darkkhaki" align="center">19AI414</td>
+                <td bgcolor="darkkhaki" align="center">FUNDAMENTALS OF WEB APP(WEB)</td>         
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">2</th>
+                <td bgcolor="tan" align="center">19AI304</td>
+                <td bgcolor="tan" align="center">FUNDAMENTALS OF C PROGRAMMING(C)</td>
+            </tr>
+            <tr>
+                <th bgcolor="grey" align="center">3</th>
+                <td bgcolor="lavender" align="center">19CS547</td>
+                <td bgcolor="lavender" align="center">FUNDAMENTALS OF CRYPTOCURRENCY(CRYPTO)</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+## OUTPUT
+![alt text](<Screenshot 2025-09-22 081834-1.png>)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
